@@ -12,6 +12,7 @@
 		C614C820449E6B2602F6E137 /* MunicipalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C4AF6F3957895B4E45C4 /* MunicipalService.swift */; };
 		C614C944963FC7A7899C19C7 /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */; };
 		C614C97EBB90FD6C77000BB9 /* SnowMocksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C5FD7A03CD52369D3A86 /* SnowMocksTest.swift */; };
+		C614CB70734BD717A05694B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C614CC33502CBE06796D8EAC /* README.md */; };
 		C614CBE3369359B1C2B57871 /* PressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614CF94186C2A27FEB78B21 /* PressService.swift */; };
 		C614CCA892E75A18AD2FE65A /* SnowRescueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C3F087D7761A7577BB77 /* SnowRescueService.swift */; };
 		C614CDF72BE5FBF9659F63F1 /* SnowRescueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C3F087D7761A7577BB77 /* SnowRescueService.swift */; };
@@ -38,6 +39,7 @@
 		C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
 		C614C94BC4834E8EE2A519D8 /* SnowMocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnowMocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		C614CB7F74370005E2132541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C614CC33502CBE06796D8EAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		C614CF94186C2A27FEB78B21 /* PressService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				C614CB8DE717B10268A569DC /* Products */,
 				C614CF3357996D529F9C24F0 /* SnowMocks */,
 				C614CADC8219E91C79BF4B64 /* SnowMocksTest */,
+				C614CC33502CBE06796D8EAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C614CB70734BD717A05694B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
