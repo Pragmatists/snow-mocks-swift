@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C614C0DC7AA4E882462F41DC /* MunicipalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C4AF6F3957895B4E45C4 /* MunicipalService.swift */; };
+		C614C37D70A83F3F654708B0 /* PressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614CF94186C2A27FEB78B21 /* PressService.swift */; };
+		C614C820449E6B2602F6E137 /* MunicipalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C4AF6F3957895B4E45C4 /* MunicipalService.swift */; };
+		C614C944963FC7A7899C19C7 /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */; };
+		C614C97EBB90FD6C77000BB9 /* SnowMocksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C5FD7A03CD52369D3A86 /* SnowMocksTest.swift */; };
+		C614CBE3369359B1C2B57871 /* PressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614CF94186C2A27FEB78B21 /* PressService.swift */; };
+		C614CCA892E75A18AD2FE65A /* SnowRescueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C3F087D7761A7577BB77 /* SnowRescueService.swift */; };
+		C614CDF72BE5FBF9659F63F1 /* SnowRescueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C3F087D7761A7577BB77 /* SnowRescueService.swift */; };
+		C614CEA3549FB2E05171FA5C /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C614C615DF8251D3E0EE9B3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C614C3F087D7761A7577BB77 /* SnowRescueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowRescueService.swift; sourceTree = "<group>"; };
+		C614C42D926BBFD0AD61B90E /* SnowMocksTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowMocksTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C614C4AF6F3957895B4E45C4 /* MunicipalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MunicipalService.swift; sourceTree = "<group>"; };
+		C614C5FD7A03CD52369D3A86 /* SnowMocksTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowMocksTest.swift; sourceTree = "<group>"; };
+		C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
+		C614C94BC4834E8EE2A519D8 /* SnowMocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnowMocks; sourceTree = BUILT_PRODUCTS_DIR; };
+		C614CB7F74370005E2132541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C614CF94186C2A27FEB78B21 /* PressService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C614C1ADAF2D54C89B102044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C614CDCB3C77C5340A0330D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C614C68E26A30D13E46B1285 = {
+			isa = PBXGroup;
+			children = (
+				C614CB8DE717B10268A569DC /* Products */,
+				C614CF3357996D529F9C24F0 /* SnowMocks */,
+				C614CADC8219E91C79BF4B64 /* SnowMocksTest */,
+			);
+			sourceTree = "<group>";
+		};
+		C614CADC8219E91C79BF4B64 /* SnowMocksTest */ = {
+			isa = PBXGroup;
+			children = (
+				C614CBF19F51AE3846C26BCD /* Supporting Files */,
+				C614C5FD7A03CD52369D3A86 /* SnowMocksTest.swift */,
+			);
+			path = SnowMocksTest;
+			sourceTree = "<group>";
+		};
+		C614CB8DE717B10268A569DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C614C94BC4834E8EE2A519D8 /* SnowMocks */,
+				C614C42D926BBFD0AD61B90E /* SnowMocksTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C614CBF19F51AE3846C26BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C614CB7F74370005E2132541 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C614CF3357996D529F9C24F0 /* SnowMocks */ = {
+			isa = PBXGroup;
+			children = (
+				C614C8D4EC05DCFA292A6B68 /* WeatherForecastService.swift */,
+				C614C3F087D7761A7577BB77 /* SnowRescueService.swift */,
+				C614C4AF6F3957895B4E45C4 /* MunicipalService.swift */,
+				C614CF94186C2A27FEB78B21 /* PressService.swift */,
+			);
+			path = SnowMocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C614C45D17CC7EAFCF9733DF /* SnowMocksTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C614CE65631B8039F4029943 /* Build configuration list for PBXNativeTarget "SnowMocksTest" */;
+			buildPhases = (
+				C614CCD8EA0FAACFD6C11BBC /* Sources */,
+				C614C1ADAF2D54C89B102044 /* Frameworks */,
+				C614CF82A7B9360B641FA9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowMocksTest;
+			productName = SnowMocksTest;
+			productReference = C614C42D926BBFD0AD61B90E /* SnowMocksTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C614C9C0F3310C1066DB2713 /* SnowMocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C614C9DF372BCE46F4F28CDE /* Build configuration list for PBXNativeTarget "SnowMocks" */;
+			buildPhases = (
+				C614C2E05350C2F1EF29E9F3 /* Sources */,
+				C614CDCB3C77C5340A0330D4 /* Frameworks */,
+				C614C615DF8251D3E0EE9B3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowMocks;
+			productName = SnowMocks;
+			productReference = C614C94BC4834E8EE2A519D8 /* SnowMocks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C614CEB62527D1FA6FC428E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Pragmatists;
+			};
+			buildConfigurationList = C614C010921D90F3D6D0F884 /* Build configuration list for PBXProject "SnowMocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C614C68E26A30D13E46B1285;
+			productRefGroup = C614CB8DE717B10268A569DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C614C9C0F3310C1066DB2713 /* SnowMocks */,
+				C614C45D17CC7EAFCF9733DF /* SnowMocksTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C614CF82A7B9360B641FA9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C614C2E05350C2F1EF29E9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C614C944963FC7A7899C19C7 /* WeatherForecastService.swift in Sources */,
+				C614CCA892E75A18AD2FE65A /* SnowRescueService.swift in Sources */,
+				C614C820449E6B2602F6E137 /* MunicipalService.swift in Sources */,
+				C614C37D70A83F3F654708B0 /* PressService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C614CCD8EA0FAACFD6C11BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C614C97EBB90FD6C77000BB9 /* SnowMocksTest.swift in Sources */,
+				C614CEA3549FB2E05171FA5C /* WeatherForecastService.swift in Sources */,
+				C614CDF72BE5FBF9659F63F1 /* SnowRescueService.swift in Sources */,
+				C614C0DC7AA4E882462F41DC /* MunicipalService.swift in Sources */,
+				C614CBE3369359B1C2B57871 /* PressService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C614C7B264B0DA172A3B6843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C614C81F431EDDC78E94A944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C614C94D3F9E17E3345EFC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowMocksTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C614CB9D106147C5B0E2324B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C614CC2B5DF3245C1C2623DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C614CFD291298B4429B2EA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SnowMocksTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C614C010921D90F3D6D0F884 /* Build configuration list for PBXProject "SnowMocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C614C7B264B0DA172A3B6843 /* Debug */,
+				C614CB9D106147C5B0E2324B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C614C9DF372BCE46F4F28CDE /* Build configuration list for PBXNativeTarget "SnowMocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C614CC2B5DF3245C1C2623DF /* Debug */,
+				C614C81F431EDDC78E94A944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C614CE65631B8039F4029943 /* Build configuration list for PBXNativeTarget "SnowMocksTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C614C94D3F9E17E3345EFC24 /* Debug */,
+				C614CFD291298B4429B2EA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C614CEB62527D1FA6FC428E4 /* Project object */;
+}
